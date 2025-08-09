@@ -1,0 +1,154 @@
+.slid-product{
+    /* position: relative; */
+max-width: 1200px;
+  padding: 3%;
+  margin: 2%;
+display: flex;
+flex-wrap: wrap;
+display: flex;
+margin-top: 150px;
+flex: 1 1 12%;
+    gap: 50px;
+left: 4%;
+padding: 4%;
+         border-radius: 70px;
+	-webkit-animation: shadow-inset-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: shadow-inset-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+}
+.top-product h1 
+{
+    position: relative;
+    max-width: 1200px;
+
+    display: flex;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    align-items: center;
+    justify-content: center;
+top: 80px;
+}
+ .product-card {
+    max-width: 200px;
+
+
+
+}
+.imgProduct{
+    display: flex;
+ width: 100%;
+  height: 300px;
+  object-fit: cover;    border-radius: 6px;
+    flex-wrap: wrap;
+    padding: 2%;
+    flex: 1 1 10%;
+
+    -webkit-animation: shadow-inset-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: shadow-inset-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+    
+}
+.text-product{
+  /* display: flex; */
+ width: 100%;
+  height: 250px;
+align-items: center;
+justify-content: center;
+
+background-color: aliceblue;
+}
+.text-h2-name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+  font-size: 26px;
+}
+.details{
+  padding: 2%;
+}
+.prgraphetextimogy{
+  font-size: 25px;
+  padding-left: 20px;
+  align-items: flex-end;
+
+}
+.stars{
+    display: flex;
+    font-size: 18px;
+    color: rgb(233, 233, 39);
+  padding-left: 16px;
+
+}
+.add-total{
+  cursor: pointer;
+padding-left: 150px;
+display: flex;
+width: 100%;
+}
+.span-pls{
+color: rgb(255, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+right: 50%;
+  left: 60%;
+font-size: 40px;
+
+  transform: translate(60% , -100%);
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+.add-total:hover .add-to-car-pragraph{
+   opacity: 1;
+font-size: 18px;
+  background-color: rgba(0, 0, 255, 0.319);
+display: flex;
+align-items: center;
+justify-content: center;
+  width: 50%;
+  height: 10px;
+  border-radius:10px ;
+  padding: 8px;
+  z-index: 9999;
+}
+ .span-pls, .add-to-car-pragraph{
+ opacity: 1;
+
+} 
+.add-to-car-pragraph{
+display: flex;
+width: 20%;
+white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+
+}
+
+
+
+    
+@-webkit-keyframes shadow-inset-center {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+            box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+  }
+}
+@keyframes shadow-inset-center {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+            box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+  }
+}
+ 

@@ -1,0 +1,16 @@
+body{
+    padding: 3%;
+    background: #F2EDD1;
+        font-family: 'Perls Hearts';
+
+
+  }
+
+
+@font-face {
+  font-family: 'Perls Hearts';
+  src: url('./fonts/Perls Hearts.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+

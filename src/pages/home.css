@@ -1,0 +1,201 @@
+.home-section-one , .home-section-one-container-two{
+    max-width:1200px;
+margin-top: 70px;
+}
+.home-section-one-container{
+    display: flex;
+    justify-content: space-between;
+}
+.right-text{
+    display: flex;
+    width: 400px;
+    max-width: 300px;
+    padding: 2%;
+    flex-direction: column;
+    flex-basis: auto;
+    background-color: whitesmoke;
+    	-webkit-animation: shadow-inset-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: shadow-inset-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.right-text h1{
+    display: flex;
+align-items: center;
+justify-content: center;
+font-size: 28px;
+}
+
+.uiverse-pixel-radio-group{
+    display: flex;
+    flex-direction:column ;
+flex-wrap: nowrap;
+font-size: 22px;
+	-webkit-animation: focus-in-expand-fwd 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-expand-fwd 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.uiverse-pixel-radio:hover{
+    font-size: 24px;
+    color: blue;
+}
+
+
+/* the part left img and  text or others */
+
+
+.lift-image{
+    display: flex;
+    width: 600px;
+    max-width: 500px;
+position: relative;
+/* margin-top: 90px; */
+
+	-webkit-animation: shadow-inset-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: shadow-inset-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;}
+.bachiomg{
+
+       display: flex;
+    width: 600px;
+    max-width: 500px;
+        border-radius: 80px;
+
+       	-webkit-animation: shadow-inset-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: shadow-inset-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; 
+
+}
+.image-text{
+    position: absolute;
+left: 15%;
+top: 15%;
+transition-duration: 3s;
+transition-timing-function: ease-in-out;
+
+}
+.text {
+
+  font-family:" Holiday Mama";
+  font-size: 35px;
+  font-weight: 600;
+	-webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both; }
+
+.text  p{
+  font-size: 16px;
+}
+
+.super-button{
+font-size: 22px;
+border-radius: 8px;
+margin-top: 15px;
+padding: 8px;
+
+       	-webkit-animation: shadow-inset-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: shadow-inset-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; 
+}
+.super-button:hover{
+    color: blue;
+    font-size: 23px;
+    background-color: bisque;
+    transition-duration: 0.4s;
+transition-timing-function: ease-in-out;
+}
+@font-face {
+  font-family: 'Holiday Mama';
+  src: url('./components/Holiday Mama.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@-webkit-keyframes shadow-inset-center {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+            box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+  }
+}
+@keyframes shadow-inset-center {
+  0% {
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+            box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* animation to text img  */
+
+@-webkit-keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+            transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+            transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+
+
+@-webkit-keyframes focus-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-800px);
+            transform: translateZ(-800px);
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes focus-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-800px);
+            transform: translateZ(-800px);
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+
+
+

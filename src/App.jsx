@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 import Cart from "./components/Cart";
 import Shop from "./pages/Shop";
 import Contact from "./components/Contact";
-import About from "./components/apout";
+import About from "./components/Apout";
 import Join from "./components/Join";
 function App() {
   return (

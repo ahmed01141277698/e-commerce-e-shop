@@ -14,7 +14,7 @@ import { useDispatch, useSelector } from "react-redux";
 import ProductCart from "../components/ProductCart";
 import "../index.css";
 import "../components/Infosection.css";
-
+import "./Home.css"
 const Home = () => {
   const dispatch = useDispatch();
   const products = useSelector((state) => state.products?.products || []);
